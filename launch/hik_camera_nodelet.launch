@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="standalone_nodelet"  args="manager" output="screen"/>
+
+  <node pkg="nodelet" type="nodelet" name="HikROS1CameraNodelet" args="load hik_ros1_camera_driver/HikROS1CameraNodelet standalone_nodelet" output="screen">
+  </node>
+</launch>

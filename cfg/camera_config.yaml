@@ -1,0 +1,27 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  exposure_auto: false
+  exposure_time: 10000
+  gain: 0
+  gain_auto: true
+  gamma: 0
+  gamma_enable: true
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      exposure_auto: false
+      exposure_time: 10000
+      gain: 0
+      gain_auto: true
+      gamma: 0
+      gamma_enable: true
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+    state: []
+state: []

@@ -1,0 +1,9 @@
+<library path="lib/libhik_ros1_camera_driver">
+  <class name="hik_ros1_camera_driver/HikROS1CameraNodelet" 
+    type="HikROS1CameraNodelet" 
+    base_class_type="nodelet::Nodelet">
+    <description>
+    This is hikvision camera nodelet.
+    </description>
+  </class>
+</library>

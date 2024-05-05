@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="dynamic_reconfigure" type="dynparam" name="hik_ros1_camera_driver_param_load" output="screen" args="load /hik_ros1_camera_driver $(find hik_ros1_camera_driver)/cfg/camera_config.yaml"/>
+</launch>
